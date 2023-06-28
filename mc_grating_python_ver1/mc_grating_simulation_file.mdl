@@ -1,0 +1,74 @@
+11	Number of Modes X
+11	Number of Modes Y
+137	X-Period, nm
+137	Y-Period, nm
+400	Wavelength, nm
+0	Pol State, deg
+0	Pol phase, def
+0	AngleN, deg (Cover, Plane Base)
+0	AngleP, deg (Cover, Plane Base)
+1	Number of Layers
+1	0	Eps.Re; Eps.Im; Cover; Material: Air (Special Formula)
+77	1	Layer[1]: Thickness, nm; Number of Pillars
+1	0	Base	Eps.Re; Eps.Im; Material: Air (Special Formula)
+1	0	2	Eps.Re; Eps.Im; Npoints of Pillar[1]; Material: Silicon (Table)
+0.14233576642335766	0.8576642335766423	x[1]/(X-Period); y[1]/(Y-Period)
+0.8576642335766423	0.14233576642335766	x[2]/(X-Period); y[2]/(Y-Period)
+1	0	Eps.Re; Eps.Im; Substrate; Material: Fused Silica (Sellmeier)
+
+ Settings For FMM Crossed
+true                UsingNF
+false               UsingSmooth
+0                   SmoothStart
+0                   SmoothWidth
+true                Background Calculation
+false               Memory Consumption
+false               Calculation Direction From Substrate to Cover
+Y                   Number of Modes Correction
+3                   Calculation Priority
+true                Cover Diffraction Orders
+true                Substrate Diffraction Orders
+0                   0                   X,Y Cover Order
+0                   0                   X,Y Substrate Order    
+-1000                   10000                   MinMax X Cover Order
+-1000                   10000                   MinMax Y Cover Order
+-1000                   10000                   MinMax X Substrate Order
+-1000                   10000                   MinMax Y Substrate Order
+P                   Scanning Output Format: Power; Amplitude (Re,Im); Amplitude (Mod,Ph)
+true                Diffraction Angle
+%10.5g              Decimal Digits Format
+Fixed Parameters               String of Scanning Parameter
+0                   Row Scanning Parameter
+0                  Nubmber of Column Points -1
+0	0	Range of Scanning AngleN
+0	0	Range of Scanning AngleP
+0	0	Range of Scanning X-Period
+0	0	Range of Scanning Y-Period
+0	0	Range of Scanning Wavelength
+0	0	Range of Scanning RowVar
+0	0	Range of Scanning ColVar
+77	77	Range of Scanning Thickness of Layer[1]
+1                   Layer Index
+true	Advanced Options
+true	Field Calculation
+true	Automatically Starts Second Stage
+100	Nubmber of Points -1 for NPFx
+50	Nubmber of Points -1 for NPFy
+200	Nubmber of Points -1 for NPFz
+0	2D Field Component
+a	Field Output Format: Power Flow; Amplitude (Re,Im); Amplitude (Mod,Ph)
+%10.5g	Decimal Digits Format
+1	Scanning Direction
+0	 Units Along X
+0	1	Range of Scanning X Direction
+0	1	Range of Scanning Y Direction
+-200	200	Range of Scanning Z Direction
+0.5	Fixed X
+0	Fixed Y
+0	Fixed Z
+0	Graph Index for X-axis
+1	Graph Index for Y-axis
+2	Graph Index for Z-axis
+4	Polarization Type (Any, Hy=0, Ey=0, Hx=0, Ex=0)
+false	Output Polarizer
+0	Polarizer Angle, deg

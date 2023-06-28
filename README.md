@@ -67,11 +67,11 @@ visual = mc.show(geometry_dict, color=color)
 cs = visual.show_cross_section(normal="y")
 ```
 
-![2D]([http://url/to/img.png](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/2d.png)https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/2d.png])
+![2D](http://url/to/img.png](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/2d.png)https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/2d.png)
 
 ### 3D
 
 ```
 visual.show_3D()
 ```
-![3D]([https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/3d.jpg])
+![3D](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/3d.jpg)

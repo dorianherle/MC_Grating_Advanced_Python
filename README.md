@@ -29,10 +29,15 @@
    cd  "C:\Users\MC_Grating\Downloads\MC_Grating_Advanced_Python-main\MC_Grating_Advanced_Python-main"
    ```
 
-   ** Install **
+   **Install**
    ```
    pip install -r requirements.txt
    ```
+5. ### Activate enviroment in spyder
+
+   ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/Screenshot%202023-07-05%20114829.png
+   )
+   ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/envs.png)
    
 
    

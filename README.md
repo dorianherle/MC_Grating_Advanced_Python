@@ -1,6 +1,6 @@
 # MC_Grating_Advanced_Python
 
-This project contains advanced Python code for [MC Grating](https://mcgrating.com/). Follow the setup instructions below to get started.
+This project contains an advanced Python wrapper for [MC Grating](https://mcgrating.com/). Follow the setup instructions below to get started.
 
 ## SETUP
 

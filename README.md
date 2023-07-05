@@ -1,5 +1,23 @@
 # MC_Grating_Advanced_Python
 
+# SETUP
+1. Download & Install Anaconda
+   https://www.anaconda.com/
+2. Download & Unzip the MC Grating Python code
+   ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/Screenshot%202023-07-05%20113334.png)
+3. Open Anconda Prompt
+   3.1 **Create a new conda environment**
+   Run the following command to create a new environment named `mc_grating` with Python version 3.9:
+   ```
+   conda create -n mc_grating python=3.9
+   ```
+   3.2 **Confirm the operation**
+   After running the command, Conda will ask for your permission to proceed with the installation:
+   Type `y` and hit Enter to proceed.
+
+   
+
+
 ```
 import os 
 dir_path = os.path.dirname(os.path.realpath(__file__))

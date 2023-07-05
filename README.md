@@ -1,48 +1,66 @@
 # MC_Grating_Advanced_Python
 
-# SETUP
-1. ### Download & Install Anaconda
-   https://www.anaconda.com/
-2. ### Download & Unzip the MC Grating Python code
-   ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/Screenshot%202023-07-05%20113334.png)
-3. ### Create a new conda environment (optional but recommended) 
-   
-   
-   Run the following command to create a new environment named `mc_grating` with Python version 3.9:
-   ```
-   conda create -n mc_grating python=3.9
-   ```
-   
-   
-   After running the command, Conda will ask for your permission to proceed with the installation:
-   Type `y` and hit Enter to proceed.
+This project contains advanced Python code for MC Grating. Follow the setup instructions below to get started.
 
-   
-   ```
-   conda activate mc_grating
-   ```
-4. ### Install required packages
-   
-   **Navigate to to the extracted code folder**
-   cd path_to_folder, i.e.
-   ```
-   cd  "C:\Users\MC_Grating\Downloads\MC_Grating_Advanced_Python-main\MC_Grating_Advanced_Python-main"
-   ```
+## SETUP
 
-   **Install**
-   ```
-   pip install -r requirements.txt
-   ```
-5. ### Activate enviroment in spyder
+### 1. Download & Install Anaconda
+
+Anaconda is a popular Python distribution for data science and machine learning. Download and install it from the [official website](https://www.anaconda.com/).
+
+### 2. Download & Unzip the MC Grating Python code
+
+Download the MC Grating Python code from this GitHub repository and unzip it. 
+
+![Download & Unzip Code](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/Screenshot%202023-07-05%20113334.png)
+
+### 3. Create a new Conda environment (Optional but Recommended) 
+
+It's a good practice to create a separate environment for each project. To create a new environment named `mc_grating` with Python version 3.9, use the following command:
+
+```
+conda create -n mc_grating python=3.9
+```
+
+After running the command, Conda will ask for your permission to proceed with the installation. Type `y` and hit Enter to proceed. Once the environment is created, activate it using the following command:
+
+```
+conda activate mc_grating
+```
+
+### 4. Install Required Packages
+
+First, navigate to the directory containing the extracted code:
+
+```
+cd "<path_to_folder>"
+```
+
+Replace <path_to_folder> with the actual path to the folder where you unzipped the MC Grating Python code, such as:
+
+```
+cd "C:\Users\MC_Grating\Downloads\MC_Grating_Advanced_Python-main\MC_Grating_Advanced_Python-main"
+```
+
+Then, install the necessary Python packages listed in the `requirements.txt` file:
+
+```
+pip install -r requirements.txt
+```
+
+### 5. Activate the Environment in Spyder
+
+In order to use the mc_grating environment in Spyder, you need to activate it as shown in the images below:
 
    ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/Screenshot%202023-07-05%20114829.png
    )
    ![download](https://github.com/dorianherle/MC_Grating_Advanced_Python/blob/main/visualization_readme/envs.png)
    
 
-   
+### 6. Run the Test Script
+Finally, open and run the test_all.py script to verify the setup.
 
-   
+Please replace the placeholders (`<path_to_folder>`) with the actual path to your project's directory.
 
    
 

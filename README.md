@@ -60,8 +60,9 @@ In order to use the mc_grating environment in Spyder, you need to activate it as
 ### 6. Run the Test Script
 Finally, open and run the test_all.py script to verify the setup.
 
-Please replace the placeholders (`<path_to_folder>`) with the actual path to your project's directory.
 
+
+# EXAMPLE:
    
 
 

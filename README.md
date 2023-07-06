@@ -4,6 +4,10 @@ This project contains an advanced Python wrapper for [MC Grating](https://mcgrat
 
 ## SETUP
 
+### 0. Download & Install Blender
+Blender is needed for 3D visualization and for some internal boolean geometric operations.
+https://www.blender.org/
+
 ### 1. Download & Install Anaconda
 
 Anaconda is a popular Python distribution for data science and machine learning. Download and install it from the [official website](https://www.anaconda.com/).
